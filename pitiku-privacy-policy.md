@@ -14,7 +14,6 @@ Pitiku is designed to keep your data local. We do not host your financial data o
 *   **Financial Data:** All accounts, transactions, and categories are stored locally on your device's internal database.
 *   **Google Account Information:** When you use "Login with Google," we access your **Email Address** and **Basic Profile Information** solely to identify your account for backup purposes.
 *   **Google Drive Access:** If you enable the Backup feature, Pitiku uses the `drive.file` scope. This means the App can **only** access the specific backup files it creates (`pitiku_backup.json`). It cannot see or read any other files in your Google Drive.
-*   **Gemini AI (Google):** When you use the "Quick Add" or "AI Voice" features, the text you provide is sent to Google's Gemini API to be parsed into a transaction. No personal identifiers are sent with this text.
 
 ### 2. Data Storage
 Your data is stored in two places:
@@ -25,7 +24,6 @@ Your data is stored in two places:
 We use the following third-party services:
 *   **Google Play Services:** For authentication.
 *   **Google Drive API:** For data synchronization.
-*   **Google Gemini API:** For processing natural language inputs.
 
 ### 4. Data Deletion
 You can delete all your data at any time by:
@@ -43,7 +41,6 @@ Pitiku dirancang untuk menjaga privasi data Anda. Kami tidak menyimpan data keua
 *   **Data Keuangan:** Semua akun, transaksi, dan kategori disimpan secara lokal di database internal perangkat Anda.
 *   **Informasi Akun Google:** Saat Anda menggunakan "Login dengan Google," kami mengakses **Alamat Email** dan **Informasi Profil Dasar** hanya untuk mengidentifikasi akun Anda untuk keperluan backup.
 *   **Akses Google Drive:** Jika Anda mengaktifkan fitur Backup, Pitiku menggunakan scope `drive.file`. Ini berarti Aplikasi **hanya** dapat mengakses file cadangan khusus yang dibuatnya sendiri (`pitiku_backup.json`). Aplikasi tidak dapat melihat atau membaca file lain di Google Drive Anda.
-*   **Gemini AI (Google):** Saat Anda menggunakan fitur "Quick Add" atau "AI Voice," teks yang Anda berikan dikirim ke API Gemini Google untuk diproses menjadi transaksi. Tidak ada identitas pribadi yang dikirimkan bersama teks ini.
 
 ### 2. Penyimpanan Data
 Data Anda disimpan di dua tempat:
@@ -54,7 +51,6 @@ Data Anda disimpan di dua tempat:
 Kami menggunakan layanan pihak ketiga berikut:
 *   **Google Play Services:** Untuk autentikasi.
 *   **Google Drive API:** Untuk sinkronisasi data.
-*   **Google Gemini API:** Untuk memproses input bahasa alami.
 
 ### 4. Penghapusan Data
 Anda dapat menghapus semua data Anda kapan saja dengan:
